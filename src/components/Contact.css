@@ -1,0 +1,130 @@
+.contact-section {
+  background-color: #111;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.contact-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-details h4 {
+  color: #d4af37;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.contact-details h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+
+.contact-details p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.contact-info {
+  color: white; 
+}
+
+.contact-info div {
+  width: 200px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info .icon {
+  font-size: 1.5rem;
+  color: #FFD700; 
+}
+
+.contact-info .title {
+  margin-left: 1.5rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.contact-info .text {
+  margin-left: 3rem;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.contact-social h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.contact-social .icons svg {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.contact-social .icons svg:hover {
+  color: #d4af37;
+}
+
+.contact-form-box {
+  background-color: #1a1a1a;
+  border: 1px solid #d4af37;
+  padding: 4rem;
+  flex: 1;
+  margin-top: 5rem;
+  padding-bottom: 6rem;
+  min-width: min-content;
+  height: 300px;
+  border-radius: 8px;
+}
+
+.contact-form-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-box input,
+.contact-form-box textarea {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid white;
+  border-radius: 4px;
+  background: #111;
+  color: #fff;
+}
+
+.contact-form-box button {
+  background-color: #d4af37;
+  color: #111;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form-box button:hover {
+  background-color: #b8942d;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,99 @@
+.hero-section {
+  background: url('/background.jpg') no-repeat center center/cover;
+  width: 100vw;            
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+}
+
+.tagline {
+  font-size: 1.5em;
+  font-weight: 350;
+  color: gold;
+  margin-bottom: 5px;
+}
+
+.hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0.1em 0;
+}
+
+.subtext {
+  font-size: 1.3rem;
+  margin-bottom: 2em;
+}
+
+.buttons button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-btn {
+  font-weight: bold;
+  background-color: #D4AF37;
+  color: black;
+}
+
+.services-btn {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.services-btn:hover {
+  color: gold;
+}
+
+.icon-wrapper {
+  position: absolute;
+  bottom: 2rem; 
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.bounce-link {
+  color: var(--color-light);
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
